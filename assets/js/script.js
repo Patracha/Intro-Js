@@ -45,3 +45,11 @@ restoDeDias = ((restoDeDias % 7));
 
 console.log(`Es equivalente a ${anios} años, ${semanas} semanas y ${restoDeDias} dias`)
 
+var n1 = parseFloat(prompt("Introduzca un numero"));
+var n2 = parseFloat(prompt("Introduzca un numero"))
+var n3 = parseFloat(prompt("Introduzca un numero"))
+var n4 = parseFloat(prompt("Introduzca un numero"))
+var n5 = parseFloat(prompt("Introduzca un numero"))
+suma = n1 + n2 + n3 + n4 + n5;
+console.log(`El resultado de la suma es= ${suma}`)
+console.log(`El promedio es= ${suma/5}`)
